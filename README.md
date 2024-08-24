@@ -1,6 +1,6 @@
 # Speech Emotion Recognition
 
-This project involves developing a deep learning model to accurately classify human emotions from speech using the MLPClassifier in Sklearn. The model was trained on the RAVDESS and SAVEE datasets, which together contain ~2,000 audio files representing various emotional states. The objective is to enhance customer sentiment analysis by detecting emotions through speech, which can be applied in various fields such as customer service, mental health, and human-computer interaction.
+This project involves developing a deep learning model to accurately classify human emotions from speech using the MLPClassifier in Sklearn. The model was trained on the RAVDESS and SAVEE datasets, which together contain over 2,000 audio files representing various emotional states. The objective is to enhance customer sentiment analysis by detecting emotions through speech, which can be applied in various fields such as customer service, mental health, and human-computer interaction.
 
 ## Key Features:
 - **Datasets**: RAVDESS and SAVEE, consisting of diverse emotional speech recordings.
@@ -9,6 +9,16 @@ This project involves developing a deep learning model to accurately classify hu
 - **Applications**: Can be integrated into systems for real-time emotion detection in voice assistants, call centers, and other AI-driven applications.
 
 This repository contains the codebase, datasets (links provided), and instructions for training and testing the model. Contributions and suggestions are welcome!
+
+## Current Capabilities
+- As of now, the code generates results for **four emotions**: Happy, Angry, Sad, and Disgust. These emotions were selected due to their distinctiveness and the ability to differentiate them from one another with greater accuracy.
+
+## Future Scope
+- In the future, I plan to expand the dataset size and broaden the range of detectable emotions. This will involve experimenting with different parameters and exploring various learning algorithms to improve the model’s accuracy and versatility.
+
+## Why MLPClassifier?
+- **MLPClassifier** was chosen for this project due to its effectiveness in handling small to medium-sized datasets, its ability to model complex relationships between features, and its flexibility in parameter tuning. It is well-suited for the initial phase of this project, where we aim to achieve a good balance between performance and simplicity.
+- In the future, the model could be replaced with more advanced techniques such as **Convolutional Neural Networks (CNNs)** or **Recurrent Neural Networks (RNNs)**, which may provide better results as we increase the dataset size and complexity.
 
 ## How to Use
 
